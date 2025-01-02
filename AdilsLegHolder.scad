@@ -1,11 +1,14 @@
 include <BOSL2/std.scad>
 $fn = 64;
 
+
+
+
 //// parameters
 
 // can generate multiple holders in one, putting them next to each other
 // set this to how many legs you want to hold with one holder
-numberOfLegs = 4;
+numberOfLegs = 1;
 
 // if this variable is set to true, the generate holder holds the upper part of a leg
 // if set to false, it generates the holder for the lower part
