@@ -5,11 +5,13 @@ $fn = 64;
 
 
 
-legOuterDiameter = 40;
-legInnerDiameter = 35;
+legOuterDiameter = 40.23 * 1.03;
 
-legLowerScrewHeight = 5;
-legLowerScrewDiameter = 6;
+legLowerScrewHeight = 10;
+legLowerScrewDiameter = 7.6 * 1.2;
+
+legLowerScrewDomeDiameter = 18.9 * 1.1;
+legLowerScrewDomeHeight = 2.86 * 1.1;
 
 
 holderWidth = legOuterDiameter * 1.1;

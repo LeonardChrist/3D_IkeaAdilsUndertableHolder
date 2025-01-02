@@ -5,12 +5,11 @@ $fn = 64;
 
 
 
-legOuterDiameter = 40;
-legInnerDiameter = 35;
+legOuterDiameter = 40.23 * 1.03;
+legInnerDiameter = 38.5 * 0.95;
 
-legUpperInnerHeight = 5;
-
-legUpperScrewDiameter = 6;
+legUpperInnerHeight = 6.16;
+legUpperScrewDiameter = 8 * 1.1;
 
 
 holderWidth = legOuterDiameter * 1.1;
@@ -24,7 +23,7 @@ lowerHolderDepth = holderDepth * 3;
 lowerHolderYOffset = (lowerHolderDepth - holderDepth) / 2;
 
 
-mountingScrewHoleDiameter = 4;
+mountingScrewHoleDiameter = 4 * 1.2;
 
 mountingScrewTranslates = 
 [
