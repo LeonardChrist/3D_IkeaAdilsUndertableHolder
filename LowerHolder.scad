@@ -59,6 +59,11 @@ difference()
             // leg slide-in cutout
             translate([(holderWidth - legOuterDiameter) / 2,legLowerScrewHeight, lowerHolderHeight + holderHeight / 2])
                 cube([legOuterDiameter, holderDepth, holderHeight]);
+
+            // leg screwdome cutout
+            translate([holderWidth / 2, 0, lowerHolderHeight + holderHeight / 2])
+                xrot(-90)
+                    cylinder(d = legLowerScrewDomeDiameter, h = legLowerScrewDomeHeight);
         }
 
     }
